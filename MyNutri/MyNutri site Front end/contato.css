@@ -1,0 +1,96 @@
+header {
+    background-color: black;
+    padding: 20px 0;
+}
+
+.bloco {
+    position: relative;
+    width: 1500px;
+    margin: 0 auto;
+}
+
+.navv{
+    position: absolute;
+    top: 20px;
+    right: 0; 
+}
+
+.navv .ul-nav{
+    display: inline;
+}
+
+.navv li{
+    display:inline;
+    margin: 0 0 0 25px;
+}
+
+.navv a{
+    text-transform: uppercase;
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+.navv a:hover {
+    color: #00FF7F	;
+}
+
+.navv a:active {
+    color: #32CD32	;
+}
+
+
+
+main {
+    width: 1150px;
+    margin: 0 auto;
+}
+
+form {
+    margin: 40px 0;
+}
+
+form label, form legend {
+    display:block;
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+
+.input-padrao {
+    display: inline;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 50%;
+}
+
+.checkbox {
+    margin: 50px 0;
+}
+
+footer {
+    text-align: center;
+    background: url("imagemPreta.jpg");
+    padding: 40px 0;
+}
+
+.copyright {
+    color: #FFFFFF;
+    font-size: 13px;
+    margin: 20px 0 0;
+}
+
+.enviar {
+    width: 55% ;
+    padding: 15px 0;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 50px;
+    transition: 500ms all;
+    cursor: pointer;
+}
+
+.enviar:hover {
+    background-color: #00FF7F;
+    transform: scale(1.03);
+} 

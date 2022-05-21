@@ -1,0 +1,38 @@
+header {
+    background-image: url(comidas.jpg);
+    padding: 143px 0;
+}
+
+.caixa {
+    position: relative;
+    width: 1150px;
+    margin: 0 auto;
+}
+
+nav {
+    position: absolute;
+    top: 225px;
+    right: 0;
+}
+
+nav li{
+    display:inline;
+    margin: 0 0 0 25px;
+
+}
+
+nav a {
+    text-transform: uppercase;
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 25px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #00FF7F	;
+}
+
+nav a:active {
+    color: #32CD32	;
+}

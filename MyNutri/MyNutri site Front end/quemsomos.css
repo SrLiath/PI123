@@ -1,0 +1,70 @@
+header {
+    background-color: black;
+    padding: 20px 0;
+}
+
+.bloco {
+    position: relative;
+    width: 1500px;
+    margin: 0 auto;
+}
+
+.navv{
+    position: absolute;
+    top: 20px;
+    right: 0; 
+}
+
+.navv .ul-nav{
+    display: inline;
+}
+
+.navv li{
+    display:inline;
+    margin: 0 0 0 25px;
+}
+
+.navv a{
+    text-transform: uppercase;
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+.navv a:hover {
+    color: #00FF7F	;
+}
+
+.navv a:active {
+    color: #32CD32	;
+}
+
+h2 {
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: left;
+    font-size: 2em;
+    margin: 50px 100px 100px 100px;
+    clear: left;
+}
+
+main p {
+    text-align: left;
+    font-style: normal;
+    font-size: 25px;
+    margin: 50px 100px 100px 100px;
+    clear: left;
+}
+
+footer {
+    text-align: center;
+    background: url("imagemPreta.jpg");
+    padding: 40px 0;
+}
+
+.copyright {
+    color: #FFFFFF;
+    font-size: 13px;
+    margin: 20px 0 0;
+}

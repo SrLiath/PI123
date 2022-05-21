@@ -1,0 +1,19 @@
+# depslib dependency file v1.0
+1651469970 source:c:\users\valer\desktop\pi\mynutri-p1b\main.cpp
+	<iostream>
+	<stdio.h>
+	<locale.h>
+	<stdlib.h>
+	<string.h>
+	<Windows.h>
+	<ctype.h>
+
+1651469970 source:c:\users\valer\desktop\pi\mynutri-back-end\main.cpp
+	<iostream>
+	<stdio.h>
+	<locale.h>
+	<stdlib.h>
+	<string.h>
+	<Windows.h>
+	<ctype.h>
+

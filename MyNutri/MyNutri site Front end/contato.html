@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+ <html>
+     <head>
+        <meta charset="UTF-8">
+        <title>Fale Conosco - MyNutri</title>
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="contato.css">
+     </head>
+     
+     <body>
+        <header>
+            <div class="bloco">
+                <h1><img src="LogoMyNutri3.png" height="55" width="240" alt="Logo do MyNutri"></h1>
+                
+                <nav class="navv">
+                    <ul>
+                        <li><a href="produto.html">Ínicio</a></li>
+                        <li><a href="planos.html">Planos</a></li>
+                        <li><a href="quemsomos.html">Quem somos</a></li>
+                        <li><a href="contato.html">Fale conosco</a></li>
+                    </ul>
+                </nav>
+            </div>    
+        </header>
+
+        <main>
+            <img src="telefone2.jpg" align="right">
+                <form>
+                    <label for="nomesobrenome">Nome e sobrenome</label>
+                    <input type="text" id="nomesobrenome" class="input-padrao" required>
+
+                    <label for="email">Email</label>
+                    <input type="email" id="email" class="input-padrao" required placeholder="seuemail@dominio.com">
+
+                    <label for="telefone">Telefone</label>
+                    <input type="tel" id="telefone" class="input-padrao" required placeholder="(XX) XXXXX-XXXX">
+
+                    <label for="mensagem">Mensagem</label>
+                    <textarea cols="70" rows="10" id="mensagem" class="input-padrao" required></textarea>
+
+                    <fieldset>
+                        <legend>Como prefere o nosso contato?</legend>
+                        <label for="radio-email"><input type="radio" name="contato" value="email" id="radio-email" checked> Email</label>
+                    
+                        <label for="radio-whatsapp"><input type="radio" name="contato" value="whatsapp" id="radio-whatsapp"> WhatsApp</label>
+                    </fieldset>
+
+                    <label class="checkbox">
+                        <input type="checkbox">Gostaria de receber nossas novidades por email?
+                    </label>
+
+                    <input type="submit" value="Enviar formulário" class="enviar">
+                </form>
+        </main>
+
+        <footer>
+            <img src="LogoMyNutri4.png" alt="Logo do MyNutri">
+            <p class="copyright">&copy; Copyright MyNutri - 2022</p>
+        </footer>
+     </body>
+ </html>
