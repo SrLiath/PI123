@@ -1,3 +1,3 @@
 # Projetos Interdisciplinar 
-- <strong>LudoDime</strong>
-- <strong>MyNutri</strong>
+- <strong>LudoDime</strong>(Assistência esportiva)
+- <strong>MyNutri</strong>(Assistência Nutricional)
