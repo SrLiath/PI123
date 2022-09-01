@@ -27,6 +27,7 @@ while (a==1):
             print("\nSenha incorreta")
             passa=input("\nColoque a sua senha:")
         loss.close()
+        a=0
     else:
         vg=1
         a=0
@@ -49,6 +50,7 @@ while (a==1):
                         test = 0
                         vg = 0
                         ab = 0
+                        a = 1
             elif (choice == "2"):
                 print ("Reiniciando...\n")
                 test()
