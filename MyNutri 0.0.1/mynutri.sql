@@ -16,3 +16,4 @@ fibrag float(5),
 cinzag float(5),
 calciomg float(5),
 magnesiomg float(5));
+create table paciente (idade int not null, nome varchar not null, numid int not null);
