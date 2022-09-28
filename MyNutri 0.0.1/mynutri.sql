@@ -3,7 +3,8 @@ login Varchar (20) PRIMARY KEY,
 senha Varchar(100) NOT NULL,
 email varchar(100) NOT NULL,
 inscricao varchar(15) NOT NULL,
-tipocrn int);
+tipocrn int,
+cod int);
 create table taco (num int PRIMARY KEY,
 descricaoalimen varchar(200),
 umidade float(5),
