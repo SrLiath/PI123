@@ -27,6 +27,16 @@ con = psycopg2.connect(
     password="6c59a2e731cb30283172b558207d810c896dba007067dd2ab08477add1ab82cc",
     port="5432")
 
+
+cur = con.cursor()
+query = (
+    "INSERT INTO taco (num, descricaoalimen, umidade, energiakcal, proteinag, lipideosg, colesterolmg, carboidratog, fibrag, cinzag,  calciomg, magnesiomg) values (1, 'pao', 2.2, 3.3, 4.4, 5.5, 6.6, 7.7, 8.8, 9.9, 10.2, 22.2), (3, 'manteiga', 2.2, 3.3, 4.4, 5.5, 6.6, 7.7, 8.8, 9.9, 10.2, 22.2);")
+
+cur.execute(query)
+
+
+
+
 # iniciação do programa
 print("\nOla usuario, Seja Bem Vindo\n\n")
 nome = input("Informe seu nome: ")
@@ -69,9 +79,16 @@ while (loopmenu == 0):
     elif (menu == "2"):
         input("aperte qualquer tecla para voltar")
     elif (menu == "3"):
-        #taco = open('taco.txt','r')
-        #print (taco.read) \\
+        cur = con.cursor()
+        cur.execute("SELECT * FROM taco;")
+        res = cur.fetchall()
+
+        print("-------------------------------------------------")
+        print(" Cod Descrição Umidade(%) Energia(kcal) Proteína(g) Lipídeos(g) Colesterol(mg) Carboidrato(g) Fibra Alimentar(g) Cinzas(g) Cálcio(mg) Magnésio(mg)")
+        for lin in range(len(res)):
+            for col in range(0,12):
+                print("  " + str(str(res[lin][col])) + "  ", end ="")
+            print()
         input ("aperte qualquer tecla para voltar")
     else:
             print("\nopção invalida")
-
