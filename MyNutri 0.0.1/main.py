@@ -24,7 +24,7 @@ con = psycopg2.connect(
     host="ec2-34-203-182-65.compute-1.amazonaws.com",
     database="dp89gpr843f41",
     user="chvtvrlfasbers",
-    password="6c59a2e731cb30283172b558207d810c896dba007067dd2ab08477add1ab82cc",
+    password="6c59a2e731cb30283172b558207d810c896dba007067dd2ab08477add1ab82czaiac",
     port="5432")
 
 
